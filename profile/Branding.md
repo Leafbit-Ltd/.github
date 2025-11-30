@@ -1,3 +1,5 @@
+Logos/Images - https://github.com/Leafbit-Ltd/.github/tree/main/images
+
 LLM Promt
 ```
 I have attached the logo that needs using. The name of the website should be: "Leafbit Website Dashboard"
