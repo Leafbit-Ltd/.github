@@ -1,4 +1,4 @@
-## Let's do this Leafbit! 🍃 
+# Let's do this Leafbit! 🍃 
 - [Website](https://leafbit.uk)
 - [Customer Portal](https://cp.leafbit.uk)
 <!--
@@ -12,11 +12,13 @@
 🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 -->
 
-#### [Projects](https://github.com/orgs/Leafbit-Ltd/projects)
+## [Projects](https://github.com/orgs/Leafbit-Ltd/projects)
 - [Leafbit Ltd](https://github.com/orgs/Leafbit-Ltd/projects/2)
 - [GardenFlow]()
 
-#### [Repositories](https://github.com/orgs/Leafbit-Ltd/repositories)
+## [Repositories](https://github.com/orgs/Leafbit-Ltd/repositories)
+- [Leafbit Website]()
+- [Customer Portal]()
 
 #### [Branding](Branding.md)
 
