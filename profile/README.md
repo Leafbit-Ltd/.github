@@ -1,6 +1,6 @@
 ## Let's do this Leafbit! 🍃 
-[Website](https://leafbit.uk)
-[Customer Portal](https://cp.leafbit.uk)
+- [Website](https://leafbit.uk)
+- [Customer Portal](https://cp.leafbit.uk)
 <!--
 
 **Here are some ideas to get you started:**
