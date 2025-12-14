@@ -14,11 +14,11 @@
 
 ## [Projects](https://github.com/orgs/Leafbit-Ltd/projects)
 - [Leafbit Ltd](https://github.com/orgs/Leafbit-Ltd/projects/2)
-- [GardenFlow]()
+- [GardenFlow](https://github.com/Leafbit-Ltd/gardenflow)
 
 ## [Repositories](https://github.com/orgs/Leafbit-Ltd/repositories)
-- [Leafbit Website]()
-- [Customer Portal]()
+- [Leafbit Website](https://github.com/Leafbit-Ltd/leafbit-website)
+- [Customer Portal](https://github.com/Leafbit-Ltd/leafbit-customer-portal)
 
 #### [Branding](Branding.md)
 
