@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Leafbit email signature installer</title>
+    <style>
+      :root {
+        --background: #fefefe;
+        --text: #40423f;
+        --primary: #3c6449;
+        --accent: #8ea056;
+        --surface: #f7f8f4;
+        --border: #d9ddcf;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 32px;
+        background: var(--background);
+        color: var(--text);
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      main {
+        max-width: 880px;
+        margin: 0 auto;
+      }
+
+      h1 {
+        margin: 0 0 8px;
+        color: var(--primary);
+        font-size: 28px;
+        line-height: 34px;
+      }
+
+      h2 {
+        margin: 0 0 12px;
+        color: var(--primary);
+        font-size: 18px;
+        line-height: 24px;
+      }
+
+      p {
+        margin: 0;
+        font-size: 15px;
+        line-height: 23px;
+      }
+
+      a {
+        color: var(--primary);
+      }
+
+      .intro {
+        max-width: 720px;
+        margin-bottom: 24px;
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 20px 0 28px;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        min-height: 42px;
+        padding: 10px 14px;
+        border: 1px solid var(--primary);
+        border-radius: 8px;
+        background: var(--primary);
+        color: #fefefe;
+        font: inherit;
+        font-size: 14px;
+        line-height: 18px;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .button.secondary {
+        background: var(--background);
+        color: var(--primary);
+      }
+
+      .panel {
+        margin-bottom: 22px;
+        padding: 20px;
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        background: var(--surface);
+      }
+
+      .preview {
+        display: inline-block;
+        max-width: 100%;
+        padding: 20px;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        background: #fefefe;
+      }
+
+      .status {
+        min-height: 22px;
+        margin-top: 12px;
+        color: var(--primary);
+        font-size: 14px;
+        line-height: 22px;
+      }
+
+      ol {
+        margin: 0;
+        padding-left: 20px;
+      }
+
+      li {
+        margin: 0 0 8px;
+        font-size: 15px;
+        line-height: 23px;
+      }
+
+      @media (max-width: 640px) {
+        body {
+          padding: 20px;
+        }
+
+        .button {
+          width: 100%;
+          justify-content: center;
+        }
+
+        .preview {
+          padding: 14px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Leafbit email signature</h1>
+      <p class="intro">Preview Lydia Norton's signature, copy it as rich HTML, or download the standalone HTML file for manual import.</p>
+
+      <div class="actions" aria-label="Signature actions">
+        <button class="button" type="button" id="copy-signature">Copy signature</button>
+        <button class="button secondary" type="button" id="download-signature">Download HTML</button>
+        <a class="button secondary" href="https://mail.google.com/mail/u/0/#settings/general">Open Gmail settings</a>
+        <a class="button secondary" href="https://outlook.live.com/mail/0/options/mail/layout/messageContent">Open Outlook settings</a>
+      </div>
+
+      <section class="panel" aria-labelledby="preview-heading">
+        <h2 id="preview-heading">Preview</h2>
+        <div class="preview" id="signature-preview" aria-label="Lydia Norton email signature preview"></div>
+        <p class="status" id="status" role="status" aria-live="polite"></p>
+      </section>
+
+      <section class="panel" aria-labelledby="install-heading">
+        <h2 id="install-heading">Install</h2>
+        <ol>
+          <li>Click <strong>Copy signature</strong>.</li>
+          <li>Open your mail client's signature settings.</li>
+          <li>Create or edit a signature, then paste the copied signature into the editor.</li>
+          <li>Save it and send a test email to confirm the logo, email link, and website link work.</li>
+        </ol>
+        <p>For Apple Mail, use Mail &gt; Settings &gt; Signatures, then paste into the signature preview area.</p>
+      </section>
+    </main>
+
+    <template id="signature-template">
+      <table role="presentation" cellpadding="0" cellspacing="0" style="border-collapse:collapse; font-family:Arial, Helvetica, sans-serif; color:#40423f; max-width:520px;">
+        <tr>
+          <td style="padding:0 18px 0 0; vertical-align:middle; border-right:2px solid #8ea056;">
+            <a href="https://leafbit.uk" style="text-decoration:none;">
+              <img src="https://raw.githubusercontent.com/Leafbit-Ltd/.github/main/images/rectangle_no_background.png" width="148" alt="Leafbit" style="display:block; width:148px; max-width:148px; height:auto; border:0;">
+            </a>
+          </td>
+          <td style="padding:0 0 0 18px; vertical-align:middle;">
+            <table role="presentation" cellpadding="0" cellspacing="0" style="border-collapse:collapse; font-family:Arial, Helvetica, sans-serif;">
+              <tr>
+                <td style="padding:0 0 2px 0; font-size:18px; line-height:22px; font-weight:bold; color:#3c6449;">
+                  Lydia Norton
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:0 0 10px 0; font-size:13px; line-height:18px; color:#40423f;">
+                  Director
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:0; font-size:13px; line-height:19px; color:#40423f;">
+                  <a href="mailto:lydia@leafbit.uk" style="color:#3c6449; text-decoration:none;">lydia@leafbit.uk</a>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:0; font-size:13px; line-height:19px; color:#40423f;">
+                  <a href="https://leafbit.uk" style="color:#3c6449; text-decoration:none;">leafbit.uk</a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </template>
+
+    <script>
+      const preview = document.getElementById('signature-preview');
+      const status = document.getElementById('status');
+      const signatureHtml = document.getElementById('signature-template').innerHTML.trim();
+
+      preview.innerHTML = signatureHtml;
+
+      function setStatus(message) {
+        status.textContent = message;
+      }
+
+      function signatureDocument() {
+        return `<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lydia Norton email signature</title>
+  </head>
+  <body style="margin:0; padding:24px; background:#fefefe;">
+${signatureHtml}
+  </body>
+</html>
+`;
+      }
+
+      async function copySignature() {
+        const plainText = preview.innerText.trim();
+
+        try {
+          if (navigator.clipboard && window.ClipboardItem) {
+            await navigator.clipboard.write([
+              new ClipboardItem({
+                'text/html': new Blob([signatureHtml], { type: 'text/html' }),
+                'text/plain': new Blob([plainText], { type: 'text/plain' })
+              })
+            ]);
+          } else {
+            const selection = window.getSelection();
+            const range = document.createRange();
+            range.selectNodeContents(preview);
+            selection.removeAllRanges();
+            selection.addRange(range);
+            document.execCommand('copy');
+            selection.removeAllRanges();
+          }
+
+          setStatus('Signature copied. Paste it into your mail client signature editor.');
+        } catch (error) {
+          setStatus('Copy failed. Select the preview manually, then copy it.');
+        }
+      }
+
+      function downloadSignature() {
+        const blob = new Blob([signatureDocument()], { type: 'text/html' });
+        const link = document.createElement('a');
+        link.href = URL.createObjectURL(blob);
+        link.download = 'lydia-norton-leafbit-email-signature.html';
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+        URL.revokeObjectURL(link.href);
+        setStatus('HTML signature downloaded.');
+      }
+
+      document.getElementById('copy-signature').addEventListener('click', copySignature);
+      document.getElementById('download-signature').addEventListener('click', downloadSignature);
+    </script>
+  </body>
+</html>
