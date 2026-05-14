@@ -6,10 +6,11 @@ Importable HTML email signatures for Leafbit employees.
 
 - [Preview and copy Lydia Norton's signature](index.html)
 - [Open Lydia Norton's standalone HTML signature](lydia-norton.html)
+- [Install Lydia Norton's signature in Apple Mail](apple-mail/)
 - [Open Gmail signature settings](https://mail.google.com/mail/u/0/#settings/general)
 - [Open Outlook signature settings](https://outlook.live.com/mail/0/options/mail/layout/messageContent)
 
-There is no reliable universal "add to mail app" link for HTML signatures. Gmail, Outlook, and Apple Mail all expect the rendered signature to be copied into their own signature editor. The preview page gives employees the nearest practical flow: preview, click "Copy signature", then paste into their mail client's signature settings.
+There is no reliable universal "add to mail app" link for HTML signatures. Gmail and Outlook expect the rendered signature to be copied into their own signature editor. Apple Mail can be installed more directly with a small Mac installer script, but still requires the employee to choose the new signature in Mail's settings afterwards.
 
 ## Lydia Norton
 
@@ -28,6 +29,7 @@ The preview page includes:
 - A "Copy signature" button that copies rich HTML for pasting into a mail client.
 - A "Download HTML" button for employees who need the standalone `.html` file.
 - Short Gmail, Outlook, and Apple Mail install guidance.
+- A separate Apple Mail installer for Mac users in [`apple-mail/`](apple-mail/).
 
 ## Manual importing
 

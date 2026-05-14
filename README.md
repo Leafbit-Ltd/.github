@@ -25,6 +25,7 @@ https://github.com/orgs/Leafbit-Ltd/projects
 </table>
 
 - [Open Lydia Norton's preview, copy, and download page](signatures/index.html)
+- [Install Lydia Norton's signature in Apple Mail](signatures/apple-mail/)
 - [Manual install instructions](signatures/README.md)
 
 This README preview is GitHub-hosted and useful for a quick visual check. For installation, use the standalone HTML signature or the preview page from a local checkout/GitHub Pages, because GitHub strips some email-specific HTML styling and does not run the copy button in README files.
