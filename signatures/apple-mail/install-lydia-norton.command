@@ -86,7 +86,7 @@ Mime-Version: 1.0
   <tr>
     <td style="padding:0 18px 0 0; vertical-align:middle; border-right:2px solid #8ea056;">
       <a href="https://leafbit.uk" style="text-decoration:none;">
-        <img src="https://leafbit.uk/assets/leafbit-logo-CTFxbjFg.png" width="148" alt="Leafbit" style="display:block; width:148px; max-width:148px; height:auto; border:0;">
+        <img src="https://leafbit.uk/leafbit-logo.png" width="148" alt="Leafbit" style="display:block; width:148px; max-width:148px; height:auto; border:0;">
       </a>
     </td>
     <td style="padding:0 0 0 18px; vertical-align:middle;">

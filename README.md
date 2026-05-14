@@ -12,7 +12,7 @@ https://github.com/orgs/Leafbit-Ltd/projects
   <tr>
     <td>
       <a href="https://leafbit.uk">
-        <img src="https://leafbit.uk/assets/leafbit-logo-CTFxbjFg.png" width="148" alt="Leafbit">
+        <img src="https://leafbit.uk/leafbit-logo.png" width="148" alt="Leafbit">
       </a>
     </td>
     <td>
