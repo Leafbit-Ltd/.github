@@ -35,3 +35,7 @@ The installer does not know which Apple Mail account Lydia wants to use, so it d
 ## If the installer cannot find Mail signatures
 
 Open Apple Mail once, create any temporary signature in **Mail > Settings > Signatures**, quit Apple Mail, then run the installer again. This forces Apple Mail to create the local signature folder and `AllSignatures.plist`.
+
+## If the logo does not appear
+
+The signature uses the HTTPS logo hosted on `leafbit.uk`, which is more reliable than a GitHub raw image URL and avoids sending the logo as an attachment. If Apple Mail still hides the logo, check **Mail > Settings > Privacy** and make sure **Block All Remote Content** is not enabled.

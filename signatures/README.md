@@ -38,4 +38,4 @@ The preview page includes:
 3. Copy it and paste it into the email client's signature editor.
 4. Send a test email to confirm the logo, email link, and website link work.
 
-The logo uses the hosted image in this repository so it can still load after the signature is copied into a mail client.
+The logo uses the hosted image on leafbit.uk so it can still load after the signature is copied into a mail client.
