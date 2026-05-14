@@ -6,7 +6,25 @@ https://github.com/orgs/Leafbit-Ltd/projects
 
 ## Email signatures
 
+### Lydia Norton
+
+<table>
+  <tr>
+    <td>
+      <a href="https://leafbit.uk">
+        <img src="https://raw.githubusercontent.com/Leafbit-Ltd/.github/main/images/rectangle_no_background.png" width="148" alt="Leafbit">
+      </a>
+    </td>
+    <td>
+      <strong>Lydia Norton</strong><br>
+      Director<br>
+      <a href="mailto:lydia@leafbit.uk">lydia@leafbit.uk</a><br>
+      <a href="https://leafbit.uk">leafbit.uk</a>
+    </td>
+  </tr>
+</table>
+
 - [Open Lydia Norton's preview, copy, and download page](signatures/index.html)
 - [Manual install instructions](signatures/README.md)
 
-For a rendered preview, open the preview page locally in a browser or publish it with GitHub Pages. GitHub's file viewer shows HTML source code rather than the rendered signature.
+This README preview is GitHub-hosted and useful for a quick visual check. For installation, use the standalone HTML signature or the preview page from a local checkout/GitHub Pages, because GitHub strips some email-specific HTML styling and does not run the copy button in README files.
